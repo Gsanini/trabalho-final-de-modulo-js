@@ -12,7 +12,7 @@ document.querySelector("#entrar-login").addEventListener("click", (e) => {
   
     novoUsuario = JSON.parse(localStorage.getItem("usuarios"));
   
-    let usuario = {
+    let usuario = { 
       email: " ",
       senha: " ",
     };

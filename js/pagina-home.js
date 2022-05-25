@@ -12,7 +12,7 @@ botaoSalvar.addEventListener("click", (event) => {
   event.preventDefault();
   console.log(objetoRecado(inputTitulo.value, inputDescricao.value));
 
-  salvarNoLocalStorage(objetoRecado(inputTitulo.value, inputDescricao.value));
+  salvarNoLocalStorage(objetoRecado(inputTitulo.value, inputDescricao.value)); 
 });
 
 function capturaRecados() {
