@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #181F27;
+}
+
+.alinhamento-coluna {
+    display: flex;
+    flex-direction: row;
+}
+
+section.primeira-coluna {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizacao-imagem-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-login {
+    width: 485px;
+    height: 485px;
+}
+
+section.segunda-coluna {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 400px;
+}
+
+.container {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.603), 0 10px 15px rgba(0, 0, 0, 0.603);
+    background-color: #181920;
+    padding: 30px;
+    border-radius: 5px;
+    height: 300px;
+}
+
+.texto-login {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(13, 239, 152);
+    margin-bottom: 20px;
+}
+
+.email-senha{
+    margin-top: 15px;
+    padding-left: 10px;
+    width: 323px;
+    height: 45px;
+    border: none;
+    background-color: #252A34;
+    border-radius: 5px;
+    outline: none;
+    color: #CBD0F7;
+}
+
+input::placeholder {
+    color:#CBD0F7;
+}
+
+.button-entrar {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 338px;
+    height: 40px;
+    letter-spacing: 1px;
+    background-color: #311b63;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-entrar:hover {
+    background-color: rgba(44, 25, 86, 0.603);
+    transition: 300ms;
+}
+
+.recado-criar-conta {
+    padding-top: 6px;
+    text-align: center;
+    color: #CBD0F7;
+}
+
+.criar-conta-link {
+    text-decoration: none;
+    color: rgb(2, 219, 183);
+    margin-left: 10px;
+}
+
+.criar-conta-link:hover {
+    color: #004b4d;
+    transition: 300ms;
+}
+
+.coluna-fundo {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #311b63;
+    width: 338px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-cadastro:hover {
+    background-color: rgba(44, 25, 86, 0.603);
+    transition: 300ms;
+}
+
+.background-main {
+    background-color: #181F27;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+button {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+  
+.btn-editar {
+    background-color: #54ab72;
+}
+
+.btn-editar:hover{
+    background-color: #144405df;
+    transition: 250ms;
+}
+  
+.btn-apagar {
+    background-color: rgb(196, 64, 64);
+}
+
+.btn-apagar:hover {
+    background-color: #700416;
+    transition: 250ms;
+}
+  
+#btn-salvar {
+    background-color: #311b63;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btn-salvar:hover {
+    background-color: rgba(44, 25, 86, 0.603);
+    transition: 250ms;
+}
+
+#botao-sair-recados{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 80px;
+    margin-left: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#botao-sair-recados:hover {
+    background-color: rgb(91, 9, 9);
+    transition: 250ms;
+}
+
+.container-recados{
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.34), 0 10px 15px rgba(0, 0, 0, 0.603);
+    background-color: #181920;
+    padding: 30px;
+    border-radius: 5px;
+    width: 1050px;
+}
+
+.registros {
+    color: #fff;
+}
+
+.registros:hover {
+    transition: 250ms;
+    background-color: #b2d6d213;
+    color: rgb(2, 219, 183);
+}
+  
+.recados-texto {
+    color: rgb(2, 219, 183);
+    padding-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inputRecados {
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #252A34;
+    color: #CBD0F7;
+    border-radius: 5px;
+}
+
+.registro-indice{
+    width: 40px;
+    color: rgb(2, 219, 183);
+    
+}
+
+.descricao-th {
+    color: rgb(2, 219, 183);
+    width: 300px;
+}
+
+.detalhamento-th {
+    color: rgb(2, 219, 183);
+    width: 470px;
+}
+
+.acoes-th{
+    color: rgb(2, 219, 183);
+}
