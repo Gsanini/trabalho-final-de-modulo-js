@@ -3,7 +3,7 @@ let labelEmail = document.querySelector('#label-input-email');
 let validaEmail = false;
 
 let senhaCadastro = document.querySelector('#senha-cadastro');
-let labelSenha = document.querySelector('#label-input-senha');
+let labelSenha = document.querySelector('#label-input-senha'); 
 let validaSenha = false;
 
 let repetirSenhaCadastro = document.querySelector('#repetir-senha-cadastro');
