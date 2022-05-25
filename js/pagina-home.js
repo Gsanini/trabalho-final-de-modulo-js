@@ -121,7 +121,7 @@ botoesAcoes.addEventListener("click", (event) => {
     if (event.target.name === "apagar") {
       console.log(event.target.name);
       const index = event.target.id;
-      let confirmarApagar = confirm("Deseja realmente apagar esse recado?")
+      let confirmarApagar = confirm("Deseja apagar este recado?")
       if (confirmarApagar === true) {
         deletarRecado(index);
         reLoad();
