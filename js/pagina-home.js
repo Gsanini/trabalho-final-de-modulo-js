@@ -62,7 +62,7 @@ document.querySelector("#botao-sair-recados").addEventListener("click", () => {
 
 function sair() {
   sessionStorage.removeItem("logado");
-  window.location.href = "pagina-login.html";
+  window.location.href = "index.html";
 }
 
 logadoNaHome();
@@ -72,7 +72,7 @@ function logadoNaHome() {
     sessionStorage.setItem("logado", sessao);
   }
   if (!sessao) {
-    window.location.href = "pagina-login.html";
+    window.location.href = "index.html";
   }
 }
 

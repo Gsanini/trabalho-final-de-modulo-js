@@ -87,7 +87,7 @@ btnCriarConta.addEventListener("click", (e)=>{
     } else {
       alert("Conta criada com sucesso!");
       salvarNoLocalStorage(criarObjetoUsuario(emailCadastro.value, senhaCadastro.value, repetirSenhaCadastro.value));
-      window.location.href = 'pagina-login.html'
+      window.location.href = 'index.html'
     }
 }
 
